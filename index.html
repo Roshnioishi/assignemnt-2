@@ -1,69 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Hero</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Hero</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-              <img src="./Images/Group 40071 (2).png" alt="" />
-              <h1 class="nav-title">Travel<span>Hero</span></h1>
-            </div>
-            <div class="three-line"><i class="fa-solid fa-bars"></i></div>
-            <ul type="none">
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Packages</a></li>
-              <li><a href="#">Testimonial</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <!-- banner section -->
-        <div class="banner">
-            <h1 class="banner-title">Explore Your Travel</h1>
-            <p class="banner-description">
-              In the post-2021 landscape, travel agencies need to step up their marketing game with heightened efforts and strategic approaches, considering the industry's substantial setbacks due to the pandemic and associated restrictions.
+  <header>
+    <nav>
+      <div class="nav-container">
+        <img src="./Images/Group 40071 (2).png" alt="" />
+        <h1 class="nav-title">Travel<span>Hero</span></h1>
+      </div>
+      <div class="three-line"><i class="fa-solid fa-bars"></i></div>
+      <ul type="none">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- banner section -->
+    <div class="banner">
+      <h1 class="banner-title">Explore Your Travel</h1>
+      <p class="banner-description">
+        In the post-2021 landscape, travel agencies need to step up their marketing game with heightened efforts and
+        strategic approaches, considering the industry's substantial setbacks due to the pandemic and associated
+        restrictions.
+      </p>
+      <div class="btn-group">
+        <button class="btn">Where go</button>
+        <button class="btn when">
+          When <i class="fa-solid fa-angle-down when"></i>
+          <button class="btn select">Select Type <i class="fa-solid fa-angle-down"></i></button>
+          <button class="btn find">
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>Find Now
+          </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- popular tour section -->
+    <section class="popular-tour-section">
+      <div class="popular-tour-content">
+        <h1 class="tour-title">Our Popular Tours</h1>
+        <p class="tour-description">
+          Popular tours and trade began with innovative ideas, offering competitive prices for enhanced tourist
+          services.
+        </p>
+        <ul class="more-description">
+          <li class="desc-1"> With a decade of dignified service, they bring valuable experience to the table.</li>
+          <li class="desc-2">We take great pride in curating unforgettable tours for our customers, whether it's
+            exploring the beauty of Europe or immersing in the vibrant cultures of Asia.</li>
+          <li class="desc-3"> We offer a variety of destinations for our tourists to explore and enjoy.</li>
+        </ul>
+        <p class="more-tour-description">
+          Dominating the online sphere, the platform prioritizes empowering small and medium enterprise
+        </p>
+        <button class="btn-primary">
+          Read More
+        </button>
+      </div>
+      <div class="popular-tour-image">
+        <img src="./Images/Rectangle 4.png" alt="">
+      </div>
+    </section>
+    <!-- destination image collage section -->
+    <section class="destination-section">
+      <h1 class="destination-title">Choose Your Destination</h1>
+      <p class="destination-description">
+        Dominating the online sphere, the platform prioritizes empowering small and medium enterprise
+      </p>
+      <div class="image-gallery">
+        <div class="row">
+          <img src="./Images/Rectangle 5.png" alt="">
+          <figcaption class="maldives">Maldives</figcaption>
+          <img src="./Images/Rectangle 8.png" alt="">
+          <figcaption class="indonesia">Indonesia</figcaption>
+        </div>
+        <div class="row">
+          <img src="./Images/Rectangle 6.png" alt="">
+          <figcaption class="srilanka">Srilanka</figcaption>
+          <img src="./Images/Rectangle 7.png" alt="">
+          <figcaption class="north-america">North America</figcaption>
+          <img src="./Images/Rectangle 9.png" alt="">
+          <figcaption class="kashmir">Kashmir</figcaption>
+        </div>
+        <div class="row">
+          <img src="./Images/Rectangle 11.png" alt="">
+          <figcaption class="ban">Bangladesh</figcaption>
+          <img src="./Images/Rectangle 10.png" alt="">
+          <figcaption class="monkeyban">Bandarban</figcaption>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section>
+      <div class="service">
+        <h1 class="service-title">Why Choose Us</h1>
+        <p class="service-description">
+          Dominating the online sphere, the platform prioritizes empowering small and medium enterprise
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="card-1">
+          <div class="card-logo">
+            <img src="./icons/hotel 1.svg" alt="">
+          </div>
+          <h1 class="card-title">Handpicked Hotels</h1>
+          <p class="card-description">
+            Flights and hotels secured, now explore and book tour packages for domestic travel.
+          </p>
+        </div>
+        <div class="card-2">
+          <div class="card-logo">
+            <img src="./icons/map 1.svg" alt="">
+          </div>
+          <h1 class="card-title">World Class Service</h1>
+          <p class="card-description">
+            Unlock your next global destination with our world-class tourist services. Select and explore here.
+          </p>
+        </div>
+      </div>
+      <div class="card-3">
+        <div class="card-logo">
+          <img src="./icons/price-tag 1.svg" alt="">
+        </div>
+        <h1 class="card-title">Best Price Guarantee</h1>
+        <p class="card-description">
+          We ensure the best prices tailored to your plans and packages.
+        </p>
+      </div>
+      </div>
+    </section>
+    <!-- place section -->
+    <section class="place main-container">
+      <div class="place-content">
+        <h1 class="place-title">A Simple Perfect Place To Get Lost</h1>
+        <p class="place-description">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis
+          dignissim adipiscing quis.
+        </p>
+        <ul class="place-list">
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+          </li>
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+          </li>
+        </ul>
+        <button class="btn-primary">See More</button>
+      </div>
+      <div class="place-image">
+        <h2 class="place-image-caption">Watch Our Mountain in Bangladesh</h2>
+      </div>
+    </section>
+    <div class="main-container">
+      <section class="newsletter-sectio ">
+        <div class="newsletter-main">
+          <div class="newsletter">
+            <h1 class="newsletter-title">Newsletter</h1>
+            <p class="newsletter-description">
+              Unlock your daily dose of travel news and tips—subscribe today
             </p>
-            <div class="btn-group">
-              <button class="btn">Where go</button>
-              <button class="btn when">
-                When <i class="fa-solid fa-angle-down when"></i>
-              <button class="btn select">Select Type <i class="fa-solid fa-angle-down"></i></button>
-              <button class="btn find">
-                <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>Find Now 
-              </button>
+            <hr class="hr-1">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Enter Your Email">
+            <input type="submit" value="Subscribe">
+          </div>
+          <div class="travel-discount">
+            <img src="./Images/Rectangle 8 (1).png" alt="">
+            <div class="discount-card">
+              <p>Travel.com</p>
+              <h2>Save up to 70%</h2>
             </div>
           </div>
-    </header>
-    <main>
-      <!-- popular tour section -->
-      <section class="popular-tour-section">
-        <div class="popular-tour-content">
-          <h1 class="tour-title">Our Popular Tours</h1>
-          <p class="tour-description">
-            Popular tours and trade began with innovative ideas, offering competitive prices for enhanced tourist services.
-          </p>
-          <ul class="more-description">
-            <li class="desc-1"> With a decade of dignified service, they bring valuable experience to the table.</li>
-            <li class="desc-2">We take great pride in curating unforgettable tours for our customers, whether it's exploring the beauty of Europe or immersing in the vibrant cultures of Asia.</li>
-            <li class="desc-3"> We offer a variety of destinations for our tourists to explore and enjoy.</li>
-          </ul>
-          <p class="more-tour-description">
-            Dominating the online sphere, the platform prioritizes empowering small and medium enterprise
-          </p>
-          <button class="btn-primary">
-            Read More
-          </button>
-        </div>
-        <div class="popular-tour-image">
-          <img src="./Images/Rectangle 4.png" alt="">
         </div>
       </section>
-    </main>
+    </div>
+  </main>
+  <footer>
+   <div class="footer-title">
+    <img src="./Images/Group 40071 (2).png" alt="">
+    <h1>Travel <span>Hero</span></h1>
+    </div>
+    <p class="footer-description">Experience not only comfortable travel but also the most affordable options at any
+      time. Operators provide various redDeals, including Return trip offers and Early bird deals.
+
+    </p>
+    <div class="social-icons">
+      <ul>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+      <hr class="hr-2">
+      <p class="reserved">2017, All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
+
 </html>
